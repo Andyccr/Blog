@@ -4,18 +4,30 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"><title>生活小想</title>
 <style>
-body { font-family: Arial, sans-serif; line-height: 1.6; max-width: 800px; margin: 0 auto; padding: 20px; }
+body {
+    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
 h1 { color: #2c3e50; }
-pre { background: #f8f8f8; padding: 10px; }
 a { color: #3498db; text-decoration: none; }
 a:hover { text-decoration: underline; }
 .post-list { list-style: none; padding: 0; }
 .post-item { margin-bottom: 15px; }
 .post-date { color: #7f8c8d; font-size: 0.9em; }
+.dark { background: #121212; color: #e0e0e0; }
+.dark h1 { color: #f5f5f5; }
+.dark a { color:rgb(52, 152, 219); }
+.dark .post-date { color: #b3b3b3; }
 </style>
 </head>
 <body>
 <h1>生活小想</h1>
+<br><br><button onclick="document.body.classList.toggle('dark')">Change theme</button>
+<br><br>
 2019-09-24 14:40:55
 <br>
 
