@@ -14,7 +14,7 @@
 <ul class="post-list" id="postList">
 <li class="post-item">
 <a href="hello-world.html">Hello World</a>
-<div class="post-date">2025-06-19</div>
+<div class="post-date">2025-06-20</div>
 </li>
 <li class="post-item">
 <a href="macos安装homewbrew.html">MacOS安装HomewBrew</a>
@@ -52,23 +52,23 @@
 <a href="高三，何爲。.html">高三，何爲。</a>
 <div class="post-date">2022-06-09</div>
 </li>
-<li class="post-item hidden-post">
+<li class="post-item">
 <a href="过去的日子.html">过去的日子</a>
 <div class="post-date">2022-04-24</div>
 </li>
-<li class="post-item hidden-post">
+<li class="post-item">
 <a href="rydm.html">日月山河还在,大明江山永存</a>
 <div class="post-date">2022-04-24</div>
 </li>
-<li class="post-item hidden-post">
+<li class="post-item">
 <a href="回望过去的感觉.html">回望过去的感觉</a>
 <div class="post-date">2022-03-15</div>
 </li>
-<li class="post-item hidden-post">
+<li class="post-item">
 <a href="近日哈薩克斯坦.html">近日哈薩克斯坦</a>
 <div class="post-date">2022-01-09</div>
 </li>
-<li class="post-item hidden-post">
+<li class="post-item">
 <a href="2021，再見.html">2021，再見</a>
 <div class="post-date">2022-01-02</div>
 </li>
@@ -435,12 +435,12 @@
 </ul>
 <button id="loadMore">Load More</button>
 <script>
-let visiblePosts = 10;
+let visiblePosts = 15;
 const posts = document.querySelectorAll('.post-item');
 const loadMoreBtn = document.getElementById('loadMore');
 
 loadMoreBtn.addEventListener('click', () => {
-    visiblePosts += 10;
+    visiblePosts += 15;
     for (let i = 0; i < posts.length && i < visiblePosts; i++) {
         posts[i].classList.remove('hidden-post');
     }
